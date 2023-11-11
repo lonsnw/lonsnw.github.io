@@ -1,5 +1,5 @@
 <h3>This is a copy of the Personal questions and answers that I submitted for my Prime application.</h3>
----
+
 <h2>Question 1</h2>
 Why are you applying to Prime versus accessing free or inexpensive self-development options? What appeals to you about immersive learning?
 
@@ -9,7 +9,7 @@ Why are you applying to Prime versus accessing free or inexpensive self-developm
 At the risk of both dating and embarrassing myself, I'll say that I've been experimenting with tiny bits of coding since I was a kid trying to make my Xanga cooler than all of my friends'.  I've continued to use bits and pieces of code that I learn from free resources or from tinkering since then.  My most formal encounter so far with learning to code was in grad school, where I took a course that taught me how to mine and analyze literary texts using R.  This indirect relationship with coding has shown me two things: the first is that I find coding fascinating and the second is that I need a better foundation if I want to both remember what I'm doing and explore more possibilities.
 <br>
 I also have a long background in learning (I have a PhD in Media Studies) and in teaching (I taught writing and Media Studies for about 6 years).  I learn best when I've been able to discuss and I really value hearing different perspectives and understandings.  I know from experience that the best way for me to create a solid foundation for a new skill is to have learned it in the company and with the input of others.  I also know that I will need the structure of a program like Prime's to make sure that I keep progressing and don't get stuck, either because I need help or because life is busy.  I like alternating between immersive, collaborative learning and autonomous projects, so Prime seems like a perfect fit.
----
+
 <h2>Question 2</h2>
 Prime’s full-time programs require students to dedicate 60 hours or more per week to their studies. For part-time programs, students can expect to spend 20-25 hours per week. It’s common for students to spend a lot of time in front of their screens during class and while working on nightly and weekend homework. What work have you done to prepare for this challenge? What strategies will you utilize to persevere through this program?
 
@@ -19,7 +19,7 @@ Prime’s full-time programs require students to dedicate 60 hours or more per w
 I've got a lot of practice working long days and tackling large and/or complex tasks.  Grad school, teaching, and the jobs I've had since have been complicated and often very demanding on my time.  I like to structure work like this by breaking a project into small milestones and make both the project and the hours needed to complete it feel more manageable.
 <br>
 I have a really good home office set up to keep me comfortable at my desk.  I have a pretty solid routine for how to intersperse mental and physical breaks in order to keep myself relatively fresh and ready to learn and/or work.  If I get cabin fever in my office, there are other spaces in and around my home where I can work (and a portable monitor to save my eyes).  And my cat, Waffle, is always around for voluntary or involuntary snuggles as a brief screen break.
----
+
 <h2>Question 3</h2>
 While studying at Prime, you will be introduced to many challenging and exciting new technologies. Share a bit about your skills and experience as it relates to the tech industry. What web development or programming self-study have you completed thus far? What have you learned?
 
@@ -33,7 +33,7 @@ Something that I worked on recently that piqued my interest in formalized learni
 I'm also currently working on a certification course for a CMS that I've used, and, as part of that, I will be learning how developers work with the CMS, especially with their API.  I won't learn the code itself, but I will learn about the role that web development plays in the workflow.  This won't be my first time learning about APIs--one of my jobs was to write help documentation about APIs, and that gave me an introduction to what they are and an idea of how they work.  That's not to say that I know how to use one... yet.
 <br>
 Essentially, my work has let me circle around coding to get an idea of what might be done with it, and I've taken the opportunities to learn a bit and incorporate it when that makes sense.
----
+
 <h2>Question 4</h2>
 Name a personal characteristic that you highly value in yourself. How does that characteristic allow you to collaborate meaningfully with others?
 
@@ -43,7 +43,7 @@ Name a personal characteristic that you highly value in yourself. How does that 
 I find other people and the way they think about things to be interesting.  I like learning how others approach problems, how they organize information in their heads (and in their notes), and how that structures the way that they understand things.  This means that I like working with others to solve issues and that I like learning from people.  I'm also very practiced at research and like to learn from the experiences of others as much as from the people themselves.  I think a good solution is influenced by discussion, varied perspectives, research, and creativity.
 <br>
 Relatedly, I frequently enter into conversations and experiences without having decided where I need to end up.  I typically have a general idea and occasionally have a definite need, but it's not unusual for me to be influenced as I go.  I think that allowing input and being flexible are strengths, as long as flexibility is not the only goal.  But if you're trying to solve a problem with a team, you need to be able to hear about every facet of the problem and every need that folks want addressed in order to decide what the best solution is.
----
+
 <h2>Question 5</h2>
 Tech is a fast paced, ever changing field. At Prime, we seek to equip students with the skills they need to know now as well as the ability to adapt and learn new skills quickly. How would you seek to continue learning after Prime?
 
