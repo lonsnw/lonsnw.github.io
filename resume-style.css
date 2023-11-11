@@ -1,0 +1,120 @@
+body {
+  background-color: grey;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+h1 {
+  text-align: right;
+  color: pink;
+  font-size: 48px;
+  font-family: verdana, arial, sans-serif;
+  text-shadow: #FCO 1px 0 -10px;
+  animation: text-glow .5s infinite alternate;
+}
+
+@keyframes text-glow {
+  from {
+    text-shadow: 0 0 -10px purple;    
+  }
+  to {
+    text-shadow: 0 0 10px purple;
+  }
+}
+
+h2 {
+  text-align: center;
+  color: purple;
+  font-size: 28px;
+  font-family: verdana, arial, sans-serif;
+}
+
+h3 {
+  text-align: left;
+  color: pink;
+  font-size: 20px;
+  font-family: verdana, arial, sans-serif;
+}
+
+h4 {
+  text-align: left;
+  color: pink;
+  font-size: 16px;
+  font-family: verdana, arial, sans-serif;
+}
+
+ul {
+  text-align: left;
+  color: black;
+  font-size: 16px;
+  font-family: verdana, arial, sans-serif;
+}
+
+ol {
+  text-align: left;
+  color: black;
+  font-size: 16px;
+  font-family: verdana, arial, sans-serif;
+}
+
+.references h3 {
+  text-align: left;
+  color: pink;
+  font-size: 20px;
+  font-family: verdana, arial, sans-serif;
+}
+
+.references h4 {
+  text-align: center;
+  color: pink;
+  font-size: 16px;
+  font-family: verdana, arial, sans-serif;
+}
+
+.references img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  animation: glow 6s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 7px -7px white;    
+  }
+  to {
+    box-shadow: 0 0 7px 7px white;
+  }
+}
+.references p {  
+  text-align: center;
+  color: purple;
+  font-size: 14px;
+  font-style: italic;
+  font-family: "arial narrow", sans-serif;
+}
+
+.tools {
+  text-align: left;
+  color: black;
+  font-size: 14px;
+  font-family: "arial narrow", sans-serif;
+}
+
+.footer h4 {
+  padding: 4px;
+  text-align: center;
+  color: grey;
+  font-size: 15px;
+  font-family: "arial narrow", sans-serif;
+}
+
+.footer {
+  background: black;
+  transition: background-color 3s ease-out 300ms;
+}
+
+.footer:hover {
+  background-color: purple;
+}
