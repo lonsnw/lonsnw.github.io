@@ -48,6 +48,13 @@ h4 {
   font-family: verdana, arial, sans-serif;
 }
 
+p {
+  text-align: left;
+  color: black;
+  font-size: 16px;
+  font-family: verdana, arial, sans-serif;
+}
+
 ul {
   text-align: left;
   color: black;
