@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="index-style.css">
     <meta charset="utf-8">
     <title>Lons NW's website</title>
@@ -8,64 +9,90 @@
   
   <body>
 <!--This is how I can make a comment in my code.-->
-<header>
-    <h1>Lons <span style="color: #544885">Nadziejka Waller</span></h1>
+<header class="site-header clearfix">
+    <h1><span style="animation: text-glow 2s infinite alternate">Lons</span> <span style="color: #544885"> Nadziejka Waller</span></h1>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">Resume</a></li>
+        <li><a href="https://www.linkedin.com/in/lonsnw/">LinkedIn</a></li>
+        <li><a href="https://github.com/lonsnw">GitHub</a></li>
+      </ul>
+    </nav>
 </header>
     
 <main>
-    <h2><a href="#footer">View my resume</a></h2>
-    <h3>Senior UX Content Strategist, Insulet – 2023–Present</h3>
-    <p><b>HIGHLIGHT:</b> Built content models, processes, and templates to migrate internal documentation from Microsoft Word to Figma; created and socialized multiple proofs of concept in Figma and in Bitbucket</p>
-    <ul>
-    <li>Constructed and maintained iOS strings database to address UX design and content needs; facilitate efficient, accurate translations; enable future strings reuse; and streamline future Figma integration</li>
-    <li>Successfully managed tooling search project that resulted in an in-house build using refined requirements; liaised with vendors and managed team wants and needs to decide optimal solutions</li>
-      </ul>
+  <section class="billboard">
+    <p class="description">I'm an experienced content strategist, writer, and educator who has worked in the medical device, financial technology, and higher education industries. 
+      I excel at working with and in teams, I like solving puzzles and making connections, and I'm constantly developing my technical skills.
+      I'm an experienced content strategist, writer, and educator who has worked in the medical device, financial technology, and higher education industries. 
+      I work well with and in teams, I like solving puzzles and making connections, and I'm constantly developing my technical skills. </p>
+    <button onclick="window.location.href='about.html';">
+      View my resume
+    </button>
+  </section>
+</main>
 
-    <h3>Content Strategist, Help Center, Coinbase – 2022–2023</h3>
-    <p><b>HIGHLIGHT:</b> Developed self-service help centers with information on APIs, WebSocket feeds, blockchain block production and validation, and e-commerce payment integration; contributed to a 56% decrease in average daily customer contacts for the Coinbase Cloud product</p>
+<div class="columns clearfix">
+  <section class="right-1">
+    <h3>Process lead</h3>
     <ul>
-    <li>Streamlined content reuse and implemented efficient content governance processes during a CMS migration, including optimizing information architecture to align content model with CMS capability</li>
-    <li>Restructured and improved existing help centers and content through strategic writing and design expertise; collaborated with developer documentarians, engineers, marketing, and customer support to optimize content and meet customer needs</li>
+    <li>Developed job aids to streamline documentation at a growing medical technology company</li>
+    <li>Authored CMS migration aid at a financial technology company</li>
+    <li>Experienced collaborator who is willing to ask questions and research requirements to help define scope, process, and regulatory needs</li>
       </ul>
-
-    <h3>Senior Technical Writer, Medtronic – 2018–2022</h3>
-    <p><b>HIGHLIGHT:</b> Collaborated with writing team to develop new documentation or adjust existing documentation templates in response to changing business and regulatory needs</p>
-    <ul>
-    <li>Led technical communication efforts for an entire business unit, ensuring timely delivery of high-quality user guides and patient information leaflets to external audiences</li>
-    <li>Rewrote or edited content from cross-functional partners to correct grammatical errors, enhance clarity, and align with style guide</li>
-    <li>Served as a core team member, advocating for the Technical Communication team and aligning documentation needs with business objectives</li>
-      </ul>
-
-    <h3>First-Year Writing Seminar Instructor, Cornell University – 2014–2018</h3>
-    <ul>
-    <li>Developed creative and structured curricula, syllabi, handouts, and assignments to promote analytical thinking, critical analysis, media literacy, and student engagement</li>
-    <li>Taught writing to students from across the university, including grammar, syntax, punctuation, spelling, formatting, and sentence and paragraph structure</li>
-      </ul>
-    </main>
-    
-<div class="education">
-    <h3>Education</h4>
-    <ol>
-    <li>Cornell University – PhD, 2018</li>
-    <li>McGill University – MA, 2013</li>
-    <li>Rice University – BA, 2011</li>
-      </ol>
-</div>
-      
-<div class="tools">
-    <h3>Tools and Process Experience</h3>
-    Agile method, Bitbucket, Confluence, Contentful, CSS, DITA / Oxygen, Figma, Git, HTML, Jira, Looker, Markdown, Medtronic CCMS, Miro, PLM software
-</div>
-      
-<div class="references">
-    <h3>References</h3>
-    <h4>Waffle Nadziejka Waller</h4>
+  </section>
+  
+  <section class="left-2">
     <img src="https://i.ibb.co/D5Y2D05/Screenshot-2023-11-11-at-10-36-20.png" alt="Waffle in what is supposed to be a macrame swing but I had to add extensions so that it can sit on the ground because she's afraid of it if it moves because she's a very smart cat.">
-    <p>Manager since 2012.  Specialist in squeaking, not killing bugs, and yelling when she hears the radiators turn on downstairs.  Contact information can be provided in exchange for fresh nip.</p>
+  </section>
+  
+</div>
+
+<div class="columns clearfix">
+  <section class="left-1">
+    <h3>Content strategist</h3>
+    <p>Reuse advocate and content governance enthusiast with experience using CMSes and other approaches that enable content reuse, consistency, and cohesiveness</p>
+  </section>
+
+  <section class="right-2">
+    <img src="https://i.ibb.co/D5Y2D05/Screenshot-2023-11-11-at-10-36-20.png" alt="Waffle in what is supposed to be a macrame swing but I had to add extensions so that it can sit on the ground because she's afraid of it if it moves because she's a very smart cat.">
+  </section>
+</div>
+
+<div class="columns clearfix">
+  <section class="right-1">
+    <h3>Collaborative leader and team member</h3>
+    <p>Experienced leading and participating in meetings that drive engagement, propose workflow changes, and establish best practices</p>
+  </section>
+
+  <section class="left-2">
+    <img src="https://i.ibb.co/D5Y2D05/Screenshot-2023-11-11-at-10-36-20.png" alt="Waffle in what is supposed to be a macrame swing but I had to add extensions so that it can sit on the ground because she's afraid of it if it moves because she's a very smart cat.">
+  </section>
+</div>
+
+<div class="columns clearfix">
+  <section class="left-1">
+    <h3>Experienced writer</h3>
+    <ul>
+    <li>Created comprehensive technical documentation for medical devices, including user manuals for technicians and informational leaflets for patients</li>
+    <li>Built out, updated, and maintained help center documentation for web3 tools and cryptocurrency e-commerce applications</li>
+    <li>Taught writing courses in higher education, authored academic content for various audiences, and presented academic work to both professional and layperson audiences</li>
+    <li>Experienced writing for distinct audiences and following appropriate style guides</li>
+      </ul>
+  </section>
+
+  <section class="right-2">
+    <img src="https://i.ibb.co/D5Y2D05/Screenshot-2023-11-11-at-10-36-20.png" alt="Waffle in what is supposed to be a macrame swing but I had to add extensions so that it can sit on the ground because she's afraid of it if it moves because she's a very smart cat.">
+  </section>
+
 </div>
       
-<footer id="footer">
-    <h4><img src="https://media2.giphy.com/media/uDKwHQhF79Ae7Iof2L/giphy.gif" alt="Hypnotic gif" height="15"/>  This is the most beautiful website you've ever seen.  <img src="https://media2.giphy.com/media/uDKwHQhF79Ae7Iof2L/giphy.gif" alt="Hypnotic gif" height="15"/></h6>
+<footer id="footer" class="main-footer clearfix">
+    <p class="copy-left">&copy; 2023 Lons Nadziejka Waller</p>
+    <button onclick="window.location.href='about.html';" class="right-button">
+      View my resume
+    </button>
 </footer>
     
   </body>

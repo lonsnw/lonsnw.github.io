@@ -1,4 +1,4 @@
-<h1>README</h1>
+<h1>Notes from tutorial</h1>
 When/if the level-up branch is merged, it will remove the application responses.
 
 This branch is following the changes that I'm making for the Level Up Tutorial that's encouraged as prework for the program.
@@ -27,7 +27,11 @@ This branch is following the changes that I'm making for the Level Up Tutorial t
     
     }
 
-
+* Classes: used for styling and for organizing
+      * Can't link to them like you can to an ID
+      * Can use them repeatedly; they're meant to be reused
+* Sections: They're like divs but, while divs have no meaning, a section denotes that all of the content within it is going to be related.
+* Asides: indicates that it is secondary content to whatever element it's inside of; the section is primary content, the aside is secondary.  It is not automatically a sidebar.
 
 
 
