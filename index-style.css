@@ -57,15 +57,6 @@ body {
   float: left;
 }
 
-@keyframes text-glow {
-  from {
-    text-shadow: 0 0 0px #76dabc;    
-  }
-  to {
-    text-shadow: 0 0 0px #76dabc;
-  }
-}
-
 .billboard {
   background-color: #6d9d8f;
   text-align: center;
@@ -130,29 +121,29 @@ button:hover {
 .right-2 {
   float: right;
   width: 30%;
-  border-style: 50px solid #76dabc;
   text-align: left;
   color: #1a3029;
   font-size: 14px;
   font-family: verdana, arial, sans-serif;
   padding: 20px 0;
+  box-shadow: 10px 10px
 }
 
 .left-2 {
   float: left;
   width: 30%;
-  border-style: 50px solid #76dabc;
   text-align: left;
   color: #1a3029;
   font-size: 14px;
   font-family: verdana, arial, sans-serif;
   padding: 20px 0;
+  box-shadow: 10px 10px
 }
 
 .columns {
   width: 65%;
   margin: auto;
-  padding: 20px 100px 0 120px;
+  padding: 20px 100px 20px 120px;
   color: black;
 }
 
